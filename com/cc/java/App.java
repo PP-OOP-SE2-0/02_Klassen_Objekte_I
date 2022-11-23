@@ -22,12 +22,11 @@ public class App {
     // output(String.valueOf(cat.age));
 
 
-
-
-
-
-
     output(cat.tellYourName());
+    output(cat.tellYourFurColor());
+    output(String.valueOf(cat.tellYourAge()));
+
+
 
 
         // Methode output befindet sich in der KLASSE App
