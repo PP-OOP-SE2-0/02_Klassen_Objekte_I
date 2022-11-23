@@ -11,11 +11,11 @@ public String tellYourName()
 {
     return this.name;
 }
-public String tellYourfurColor()
+public String tellYourFurColor()
 {
        return this.furColor;
 }
-public int tellYourage()
+public int tellYourAge()
 {
        return this.age;
 }
