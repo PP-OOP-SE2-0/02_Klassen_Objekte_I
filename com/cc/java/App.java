@@ -16,6 +16,7 @@ public class App {
     Cat cat = new Cat("Grizabella", "white", 29);
    
     
+
     // output(cat.name);
     // output(cat.furColor);
     // output(String.valueOf(cat.age));
@@ -25,6 +26,7 @@ public class App {
     output(cat.tellYourFurColor());
     output(String.valueOf(cat.tellYourAge()));
 
+    output("------------------------");
 
     Cat cat1 = new Cat("Alonzo", "grey", 35);
 
