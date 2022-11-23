@@ -30,7 +30,10 @@ public class App {
 
     Cat cat1 = new Cat("Alonzo", "grey", 35);
 
-    
+    cat1.changeName("Test");
+
+
+
     output(cat1.tellYourName());
     output(cat1.tellYourFurColor());
     output(String.valueOf(cat1.tellYourAge()));
