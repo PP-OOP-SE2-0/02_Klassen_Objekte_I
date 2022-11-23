@@ -26,6 +26,16 @@ public class App {
     output(cat.tellYourFurColor());
     output(String.valueOf(cat.tellYourAge()));
 
+    Cat cat1 = new Cat();
+    cat1.name = "Alonzo";
+    cat1.furColor = "grey";
+    cat1.age = 35;
+
+    output(cat1.tellYourName());
+    output(cat1.tellYourFurColor());
+    output(String.valueOf(cat1.tellYourAge()));
+
+
 
 
 
@@ -37,7 +47,6 @@ public class App {
         output("------------------------");
 
         // neues Objekt wird erzeugt, Adresse wird cat1 zugewiesen
-        // Cat cat1 = new Cat();
         // Methode output befindet sich in der KLASSE App
         // output("Blick von aussen: "+ cat1); 
         // Methode tellYourAddress() befindet sich im OBJEKT cat1 
