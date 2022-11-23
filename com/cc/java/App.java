@@ -22,9 +22,9 @@ public class App {
     // output(String.valueOf(cat.age));
 
 
-    output(cat.tellYourName());
-    output(cat.tellYourFurColor());
-    output(String.valueOf(cat.tellYourAge()));
+    output(cat.getName());
+    output(cat.getFurColor());
+    output(String.valueOf(cat.getAge()));
 
     output("------------------------");
 
@@ -34,9 +34,9 @@ public class App {
 
 
 
-    output(cat1.tellYourName());
-    output(cat1.tellYourFurColor());
-    output(String.valueOf(cat1.tellYourAge()));
+    output(cat1.getName());
+    output(cat1.getFurColor());
+    output(String.valueOf(cat1.getAge()));
    
    
     // Cat cat1 = new Cat();
